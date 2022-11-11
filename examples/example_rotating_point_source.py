@@ -20,7 +20,7 @@ import sys
 from numpy import empty, clip, sqrt, arange, log10, sort, array, pi, zeros, \
 hypot, cos, sin, linspace, hstack, cross, dot, newaxis
 from numpy.linalg import norm
-from acoular import td_dir, L_p, TimeSamples, Calib, MicGeom, PowerSpectra, \
+from acoular import L_p, TimeSamples, Calib, MicGeom, PowerSpectra, \
 RectGrid, BeamformerBase, BeamformerEig, BeamformerOrth, BeamformerCleansc, \
 MaskedTimeSamples, FiltFiltOctave, Trajectory, BeamformerTimeSq, TimeAverage, \
 BeamformerTimeSqTraj, \
